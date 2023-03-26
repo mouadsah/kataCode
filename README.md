@@ -13,8 +13,8 @@
 <p>kataCode project.</p>
 
 ## Prerequisites
-1. Node.js (version v19.7.0 or later)
-2. TypeScript (version 5.0.2 or later)
+1. Node.js (version 19.7.0)
+2. TypeScript (version 5.0.2)
 
 ## Installation
 ### Clone the repository:
@@ -47,7 +47,11 @@ npm test
 SAHMOUNE Mouad
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the <b>MIT License</b>.
 
 # Additional Notes
-Thank you !
+If you have any other questions or need further assistance, feel free to ask!
+
+<div>
+<i>Thank you !</i>
+</div>

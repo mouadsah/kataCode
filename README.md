@@ -46,16 +46,17 @@ npm start
 npm test
 ```
 
-Built With
-Node.js
-TypeScript
-...
-Authors
+# Built With
+<ul>
+<li>Node.js</li>
+<li>TypeScript</li>
+</ul>
+
+# Authors
 SAHMOUNE Mouad
-...
 
 # License
 This project is licensed under the MIT License.
 
-Additional Notes
-Any additional notes, instructions or guidelines can be added here.
+# Additional Notes
+Thank you !

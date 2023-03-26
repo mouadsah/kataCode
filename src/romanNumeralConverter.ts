@@ -1,4 +1,10 @@
+/**
+ * A class to convert between Roman numerals and integers.
+ */
 export default class RomanNumeralConverter {
+  /**
+   * A dictionary mapping Roman numerals to their integer values.
+   */
   private readonly romanNumerals: { [key: string]: number } = {
     I: 1,
     IV: 4,
@@ -15,6 +21,12 @@ export default class RomanNumeralConverter {
     M: 1000,
   };
 
+  /**
+   * Convert an integer to its Roman numeral representation.
+   * @param num The integer to convert.
+   * @returns The Roman numeral representation of the given integer.
+   * @throws An error if the input number is out of range.
+   */
   toRomanNumeral(num: number): string {
     if (num <= 0 || num >= 4000) {
       throw new Error('Number out of range');
@@ -30,6 +42,11 @@ export default class RomanNumeralConverter {
     return result;
   }
 
+  /**
+   * Convert a Roman numeral string to its integer value.
+   * @param str The Roman numeral string to convert.
+   * @returns The integer value of the given Roman numeral string.
+   */
   fromRomanNumeral(str: string): number {
     let result = 0;
     for (let i = 0; i < str.length; i++) {

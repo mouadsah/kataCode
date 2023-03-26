@@ -3,13 +3,15 @@ kataCode project.
 
 # Table of Contents
 ### Getting Started
-Prerequisites
-Installation
-Usage
-Development
-Built With
-Authors
-License
+<ul>
+<li>Prerequisites</li>
+<li>Installation</li>
+<li>Usage</li>
+<li>Development</li>
+<li>Built With</li>
+<li>Authors</li>
+<li>License</li>
+</ul>
 
 ## Getting Started
 

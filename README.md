@@ -1,23 +1,20 @@
-# kataCode
-kataCode project.
-
 # Table of Contents
-### Getting Started
 <ul>
+<li>Getting Started</li>
 <li>Prerequisites</li>
 <li>Installation</li>
 <li>Usage</li>
 <li>Development</li>
-<li>Built With</li>
 <li>Authors</li>
 <li>License</li>
 </ul>
 
 ## Getting Started
+<p>kataCode project.</p>
 
 ## Prerequisites
-Node.js (version v19.7.0 or later)
-TypeScript (version 5.0.2 or later)
+1. Node.js (version v19.7.0 or later)
+2. TypeScript (version 5.0.2 or later)
 
 ## Installation
 ### Clone the repository:
@@ -26,31 +23,25 @@ TypeScript (version 5.0.2 or later)
 git clone https://github.com/mouadsah/kataCode.git
 ```
 
-## Install the dependencies:
+### Install the dependencies:
 ```
 cd kataCode
 npm install
 ```
 
-# Usage
+## Usage
 
-## Run the project:
+### Run the project:
 
 ```
 npm start
 ```
 
-## Run the tests:
+### Run the tests:
 
 ```
 npm test
 ```
-
-# Built With
-<ul>
-<li>Node.js</li>
-<li>TypeScript</li>
-</ul>
 
 # Authors
 SAHMOUNE Mouad

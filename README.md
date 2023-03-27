@@ -44,7 +44,7 @@ npm test
 ```
 
 # Authors
-SAHMOUNE Mouad
+mouadsah@gmail.com
 
 # License
 This project is licensed under the <b>MIT License</b>.

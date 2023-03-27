@@ -9,9 +9,9 @@ describe('RomanNumeral', () => {
 
   describe('calcul', () => {
     it('should return the sum of two Roman numerals', () => {
-      const num1 = 'I';
+      const num1 = 'II';
       const num2 = 'II';
-      const expectedResult = 'III';
+      const expectedResult = 'IV';
 
       const result = romanNumeral.calcul(num1, num2);
 
@@ -21,8 +21,8 @@ describe('RomanNumeral', () => {
 
   describe('toRoman', () => {
     it('should return the Roman numeral equivalent of the entered integer', () => {
-      const num = 123;
-      const expectedResult = 'CXXIII';
+      const num = 7;
+      const expectedResult = 'VII';
 
       const result = romanNumeral.toRoman(num);
 
@@ -32,8 +32,8 @@ describe('RomanNumeral', () => {
 
   describe('fromRoman', () => {
     it('should return the integer equivalent of the entered Roman numeral', () => {
-      const romanNum = 'XLII';
-      const expectedResult = 42;
+      const romanNum = 'LXIII';
+      const expectedResult = 63;
 
       const result = romanNumeral.fromRoman(romanNum);
 

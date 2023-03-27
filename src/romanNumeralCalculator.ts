@@ -33,8 +33,10 @@ export default class RomanNumeralCalculator {
    */
   public add(first: string, second: string): string | null {
       if(!this.isRomanNumeral(first) || !this.isRomanNumeral(second)) {
+          console.log('\n--------------------------------------');
           console.log("Please enter a valid Roman numeral!");
           console.log(`Valid Roman numerals: ${Object.keys(this.romanNumerals)}`);
+          console.log('--------------------------------------\n');
           return null;
       }
       const sum = this.toDecimal(first) + this.toDecimal(second);

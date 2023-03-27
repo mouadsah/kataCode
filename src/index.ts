@@ -16,7 +16,10 @@ const romanNumeral   = new RomanNumeral();
 let selectedOption: Option | null = optionSelector.selectOption();
 
 while (selectedOption === null) {
-  console.log('\nInvalid option! Please select a valid option.\n');
+
+  console.log('\n***********************************************');
+  console.log('*Invalid option! Please select a valid option.*');
+  console.log('***********************************************\n');
   selectedOption = optionSelector.selectOption();
 }
 

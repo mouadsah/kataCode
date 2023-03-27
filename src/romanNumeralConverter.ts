@@ -29,7 +29,7 @@ export default class RomanNumeralConverter {
    */
   toRomanNumeral(num: number): string {
     if (num <= 0 || num >= 4000) {
-      throw new Error('Number out of range');
+      throw new Error('Number out of range!');
     }
 
     let result = '';

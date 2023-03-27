@@ -43,7 +43,7 @@ export default class OptionSelector {
     } else if (selectedOptionIndex === this.options.length) {
       // Return a special "Exit" option if the user selected the exit option.
       return {
-        id    : this.options.length + 1, 
+        id    : this.options.length + 1,
         option: 'Exit' 
       };
     } else {
